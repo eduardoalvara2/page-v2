@@ -15,7 +15,10 @@
     name: 'AnimatedText',
     props: {
       text: String,
-      show: Boolean,
+      show: {
+        type: Boolean,
+        default: true
+      },
       wrap: {
         type: Boolean,
         default: false
@@ -23,8 +26,7 @@
     },
     data() {
       return {
-        letters: [],
-        alreadyAnimated: false
+        letters: []
       }
     },
     watch: {
@@ -57,7 +59,7 @@
         const elTop = el.getBoundingClientRect().top;
         const elBottom = el.getBoundingClientRect().bottom;
         const windowHeight = window.innerHeight;
-        if(elTop < windowHeight && elBottom > 0){
+        if(elTop < windowHeight && elBottom > 0 && this.show){
           this.animateText();
         }
       },
