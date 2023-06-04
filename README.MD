@@ -7,10 +7,13 @@ Previous iterations: [v1](https://github.com/eduardoalvara2/page-v1)
 ![Screenshot](./readme-screenshot.jpg)
 
 ## Table of Contents
+- [Table of Contents](#table-of-contents)
 - [Code Usage](#code-usage)
 - [Installation](#installation)
-- [Project setup](#project-setup)
-
+  - [Compiles and minifies for production](#compiles-and-minifies-for-production)
+  - [Lints and fixes files](#lints-and-fixes-files)
+- [Color Palette:](#color-palette)
+- [Acknowledgements](#acknowledgements)
 
 ## Code Usage
 
@@ -59,12 +62,13 @@ npm run lint
 
 ## Color Palette:
 
-| Color          | Hex                                                                |
-| -------------- | ------------------------------------------------------------------ |
-| Color 1           | ![#de2c24](https://via.placeholder.com/10/de2c24?text=+) `#de2c24` |
-
-## 
-
+| Color              | Hex                                                                |
+| ------------------ | ------------------------------------------------------------------ |
+| primary-color      | ![#de3624](https://via.placeholder.com/10/de3624?text=+) `#de3624` |
+| primary-color-soft | ![#f8b1aa](https://via.placeholder.com/10/f8b1aa?text=+) `#f8b1aa` |
+| secondary-color    | ![#757575](https://via.placeholder.com/10/757575?text=+) `#757575` |
+| grey               | ![#757575](https://via.placeholder.com/10/757575?text=+) `#757575` |
+| black              | ![#101010](https://via.placeholder.com/10/101010?text=+) `#101010` |
 
 ## Acknowledgements
 
